@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_types">
+        <item>Select User Type</item>
+        <item>Admin</item>
+        <item>Student</item>
+        <item>Faculty</item>
+    </string-array>
+</resources>
+

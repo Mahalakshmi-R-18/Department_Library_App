@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_page" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="373dp"
+        android:layout_height="3dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="-100dp"
+        android:layout_marginBottom="599dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="542dp"
+        android:gravity="center"
+        android:text="MCALib Connect"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="381dp"
+        android:backgroundTint="#F8F3F3"
+        android:gravity="center"
+        android:text="SIGN UP"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="462dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="297dp"
+        android:backgroundTint="#F8F3F3"
+        android:text="LOGIN"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="373dp"
+        android:layout_height="3dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="-101dp"
+        android:layout_marginBottom="516dp"
+        android:background="@color/white"
+        android:foregroundTint="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1071433656648",
+    "project_id": "mca-lib-1",
+    "storage_bucket": "mca-lib-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071433656648:android:bc9a6905de097586d9ab7d",
+        "android_client_info": {
+          "package_name": "com.example.mca_lib_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9jWvG12uHMfhdJSOtp50vDAKUFAERpMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

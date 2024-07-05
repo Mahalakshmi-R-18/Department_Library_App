@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ABOUT US"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/light_brown"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="MCALib Connect is an Android app revolutionizing the MCA department's library experience by serving the unique needs of administrators, faculty, and students. Librarians, as administrators, benefit from a versatile tool for efficient book management, encompassing additions, updates, lending, and fine collection, all facilitated by an intuitive search feature.\n\n
+Faculty members gain access to streamlined book resources, aiding in academic research and curriculum support. Students, the primary users, benefit from features like viewing their issued books along with due dates, and an easy search option to find specific books in the library based on suggestions. Additionally, the system provides access to project reports for reference purposes only, enhancing the academic resources available to users.
+\n\nThe due date for students is set at 15 days, while faculty members have no due date for returning books. Incase of any damage found while returning, an extra fine will be charged. Upon book issuance, information such as Accession number, Book title, Author name, Date of Issue, Date of Return, Student Roll number, and Student Name are stored.\n\n Notification alerts will be dispatched two days prior to the due date, encompassing fine particulars and updates on new arrivals in the book collection.
+Administrators seamlessly manage user accounts. MCALib Connect serves as a pocket-sized library assistant, streamlining interactions and elevating the MCA library experience.
+" />
+
+</FrameLayout>
